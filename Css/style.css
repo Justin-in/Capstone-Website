@@ -9,3 +9,7 @@ h1 {
     background-size: cover;
     min-height: 100vh;
 }
+
+body {
+    cursor: url("../Images/Cursor.png"), auto;
+}
