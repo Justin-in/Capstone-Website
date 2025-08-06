@@ -1,0 +1,15 @@
+This set includes the following:
+
+4 pixel art Bridget cursors size 32x32 pixels
+
+-normal cursor
+-working in background animated cursor
+-busy animated cursor
+-link cursor
+
+Note: To prevent Windows from loading default cursors on start, it is recommended
+to copy these cursors to C:\Windows\Cursors
+
+Made by Emi Rojas aka Lady Corvilia
+https://bsky.app/profile/corvilia.bsky.social
+ko-fi.com/corvilia

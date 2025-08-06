@@ -11,5 +11,9 @@ h1 {
 }
 
 body {
-    cursor: url("../Images/normal.cur"), auto;
+    cursor: url("../Images/bridget-normal.cur"), auto;
+}
+
+a:hover {
+    cursor: url("../Images/Bridget-link.cur"), auto;
 }
