@@ -3,5 +3,9 @@ h1 {
 }
 
 .BackgroundImage {
-    background-image: url("../Images/mimikyu.png");
+    background-image: url("https://media1.tenor.com/m/uPqBfKhxLHgAAAAC/2038pok%C3%A9mon-ceo-pok%C3%A9mon.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
 }
