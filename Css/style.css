@@ -12,8 +12,22 @@ h1 {
 
 body {
     cursor: url("../Images/bridget-normal.cur"), auto;
+    margin: 0;
+    padding: 0;
 }
 
 a:hover {
     cursor: url("../Images/Bridget-link.cur"), auto;
+}
+
+.outermenu {
+    background-color: green;
+    height: 100%;
+}
+
+.innermenu {
+    max-width: 1200px;
+    height: 40vh;
+    background-color: red;
+    border-image: url("../Images/border-diamonds.png") 30 / 30px / 30px space;
 }
