@@ -24,5 +24,16 @@ a:hover {
     max-width: 1200px;
     height: 40vh;
     background-color: red;
-    border-image: url("../Images/Border27.png") 30 / 30px / 30px space;
+    border-image: url("../Images/border27.png") 30 / 30px / 30px space;
+    z-index: -1;
+    position: relative;
+}
+
+.Menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    z-index: 1;
+
 }
