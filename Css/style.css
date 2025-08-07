@@ -5,13 +5,18 @@ h1 {
 .title-text {
     margin: 0;
     padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    color: blue;
+    text-align: center;
 }
 
 .BackgroundImage {
     background-image: url("https://media1.tenor.com/m/uPqBfKhxLHgAAAAC/2038pok%C3%A9mon-ceo-pok%C3%A9mon.gif");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
+
 }
 
 body {
@@ -28,14 +33,29 @@ a:hover {
     max-width: 1200px;
     height: 40vh;
     background-color: red;
-    /* border-image: url("../Images/border27.png") 30 / 30px / 30px space; */
+    border-image: url("../Images/border27.png") 30 / 30px / 30px space;
+    position: absolute;
     z-index: -1;
 }
 
+
 .Menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background: #000;
     z-index: 1;
 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    flex: 1 1 auto
 }
