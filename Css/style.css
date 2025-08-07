@@ -20,14 +20,9 @@ a:hover {
     cursor: url("../Images/Bridget-link.cur"), auto;
 }
 
-.outermenu {
-    background-color: green;
-    height: 100%;
-}
-
 .innermenu {
     max-width: 1200px;
     height: 40vh;
     background-color: red;
-    border-image: url("../Images/border-diamonds.png") 30 / 30px / 30px space;
+    border-image: url("../Images/Border27.png") 30 / 30px / 30px space;
 }
