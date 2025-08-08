@@ -16,8 +16,12 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 
 }
+
+
 
 body {
     cursor: url("../Images/bridget-normal.cur"), auto;
@@ -30,14 +34,14 @@ a:hover {
 }
 
 .innermenu {
-    max-width: 1200px;
-    height: 40vh;
-    background-color: red;
-    border-image: url("../Images/border27.png") 30 / 30px / 30px space;
-    position: absolute;
-    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    background: rgba(255, 17, 17, 0.8);
+    z-index: 1;
 }
-
 
 .Menu {
     display: flex;
@@ -53,7 +57,8 @@ a:hover {
 
 .row {
     display: flex;
-    justify-content: center;
+    align-self: stretch;
+    justify-content: space-around
 }
 
 .col {
