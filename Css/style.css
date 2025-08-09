@@ -55,15 +55,17 @@ a:hover {
 
 }
 
-/* .StartMenu {
+.StartMenu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 1000vw;
+    height: 1000vh;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 1;
-} */
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
 
 .row {
     display: flex;
@@ -73,4 +75,20 @@ a:hover {
 
 .col {
     flex: 1 1 auto
+}
+
+
+@keyframes fadeOutAnimation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.StartMenu {
+    animation: fadeOutAnimation 2s forwards;
+    animation-delay: 3s;
 }

@@ -11,4 +11,10 @@ document.getElementById('Menu').addEventListener('click', function () {
     }
 });
 
+// const animatedElement = document.getElementById('Menu');
+
+// animatedElement.addEventListener('animationend', () => {
+//     animatedElement.style.display = 'none'; // Remove the element from the DOM
+// });
+
 document.body.style.overflow = 'hidden'; // figure out way to create a settings to decrease volume etc.
