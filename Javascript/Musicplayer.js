@@ -11,7 +11,8 @@ document.getElementById('ClickMenu').addEventListener('click', function () {
     }
 });
 
-// const animatedElement = document.getElementById('Menu');
+
+// const aniatedElement = document.getElementById('Menu');
 
 // animatedElement.addEventListener('animationend', () => {
 //     animatedElement.style.display = 'none'; // Remove the element from the DOM
