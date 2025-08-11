@@ -7,7 +7,7 @@ button.addEventListener('click', function () {
     <h1>Welcome to the Game!</h1>
     <p>Click the button below to start playing.</p>
     <button id="start-game">Start Game</button>
-`;
+    `;
 
     const innermenu = document.getElementById('GameMenu');
     console.log(innermenu);
