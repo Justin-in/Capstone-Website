@@ -1,6 +1,6 @@
 // document.getElementById('innermenu').disable = true;
+document.getElementById('ClickMenu').addEventListener('click', function () {
 
-document.getElementById('Menu').addEventListener('click', function () {
     // Hide the menu
     this.style.display = 'none';
     // Play the music (in case autoplay was blocked)

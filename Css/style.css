@@ -21,8 +21,6 @@ h1 {
 
 }
 
-
-
 body {
     cursor: url("../Images/bridget-normal.cur"), auto;
     margin: 0;
@@ -43,7 +41,7 @@ a:hover {
     z-index: -1;
 }
 
-.Menu {
+.ClickMenu {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -77,6 +75,9 @@ a:hover {
     flex: 1 1 auto
 }
 
+fieldset {
+    border: none;
+}
 
 @keyframes fadeOutAnimation {
     from {
@@ -91,4 +92,30 @@ a:hover {
 .StartMenu {
     animation: fadeOutAnimation 2s forwards;
     animation-delay: 3s;
+}
+
+.my-element {
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid transparent;
+    /* Initial transparent border */
+    transition: border-color 0.3s ease-in-out;
+    /* Smooth transition */
+}
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+    background: #cb4f4f;
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+}
+
+.CenterOfScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
