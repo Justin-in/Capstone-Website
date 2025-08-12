@@ -90,7 +90,7 @@ fieldset {
 }
 
 .StartMenu {
-    animation: fadeOutAnimation 2s forwards;
+    animation: fadeOutAnimation 3s backwards;
     animation-delay: 3s;
 }
 
