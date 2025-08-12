@@ -1,4 +1,4 @@
-// Generic popup creator
+
 function createPopup(title, contentHTML) {
     const overlay = document.createElement('div');
     overlay.className = 'overlay';
@@ -14,25 +14,23 @@ function createPopup(title, contentHTML) {
     overlay.appendChild(dialog);
     document.body.appendChild(overlay);
 
-    // Close when clicking X
+
     overlay.querySelector('.close-btn').addEventListener('click', () => {
         overlay.remove();
     });
 
-    // Close when clicking outside
+
     overlay.addEventListener('click', (e) => {
         if (e.target === overlay) overlay.remove();
     });
 }
 
-// About popup
 document.getElementById('About').addEventListener('click', () => {
     createPopup("About", `
         <p>What should be in this page lol</p>
         <p>I'm low</p>
         <p>I like music doe</p>
         <p>Anyways this is done, give it actual text another time</p>
-        <button id="start-game">Start Game</button>
     `);
 });
 
@@ -44,11 +42,8 @@ document.getElementById('Settings').addEventListener('click', () => {
         </label>
         <br><br>
         <label>
-            Theme:
-            <select>
-                <option>Light</option>
-                <option>Dark</option>
-            </select>
+        Language: <select>
+            <option value="en">English</option>
         </label>
     `);
 });
