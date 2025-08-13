@@ -18,8 +18,8 @@ function createPopup(title, contentHTML, onPopupCreated) { // Add onPopupCreated
         if (e.target === overlay) overlay.remove();
     });
 
-    if (onPopupCreated && typeof onPopupCreated === 'function') { // Execute callback after popup is created
-        onPopupCreated(dialog); // Pass the dialog element to the callback
+    if (onPopupCreated && typeof onPopupCreated === 'function') {
+        onPopupCreated(dialog);
     }
 }
 

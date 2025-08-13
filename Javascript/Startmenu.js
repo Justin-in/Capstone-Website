@@ -1,6 +1,6 @@
 const myBox = document.getElementById('StartMenu');
 
 myBox.addEventListener('animationend', () => {
-    myBox.remove(); // Removes the element from the DOM
+    myBox.remove();
     console.log('Box removed after animation.');
 });
