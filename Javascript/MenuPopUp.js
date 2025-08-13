@@ -25,10 +25,11 @@ function createPopup(title, contentHTML, onPopupCreated) { // Add onPopupCreated
 
 document.getElementById('About').addEventListener('click', () => {
     createPopup("About", `
-            < p > What should be in this page lol</p >
-        <p>I'm low</p>
-        <p>I like music doe</p>
-        <p>Anyways this is done, give it actual text another time</p>
+            <p> This Game is a project to help with cluster headaches </p>
+            <br>
+            <p> The game uses sound and light to help with the pain </p>
+            <br>
+            <p> The primary colors used are green and blue. Green is a color that helps the headaches while blue doesnt the reason why i decided to implement it like this is to visualize how the pain comes and goes </p>
         `);
 });
 
