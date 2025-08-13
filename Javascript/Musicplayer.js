@@ -6,9 +6,6 @@ document.getElementById('ClickMenu').addEventListener('click', function () {
     // Play the music (in case autoplay was blocked)
     const audio = document.getElementById('background-music');
     audio.play();
-    function FullVolume() {
-        vid.volume = 1.0;
-    }
 });
 
 
