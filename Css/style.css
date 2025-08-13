@@ -156,16 +156,13 @@ fieldset {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
-    /* or rgba(240, 0, 0, 0.8) if you want the red look */
+    background-image: url("https://giffiles.alphacoders.com/212/212422.gif");
+    background-size: fill;
+    background-repeat: no-repeat;
     padding: 20px;
     border-radius: 10px;
     max-width: 400px;
     width: 90%;
-    height: auto;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
 }
 
 
