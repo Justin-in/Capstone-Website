@@ -1,5 +1,5 @@
 
-function createPopup(title, contentHTML, onPopupCreated) { // Add onPopupCreated callback
+function createPopup(title, contentHTML, onPopupCreated) {
     const overlay = document.createElement('div');
     overlay.className = 'overlay';
 

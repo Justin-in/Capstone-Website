@@ -39,6 +39,9 @@ a:hover {
     height: 15vh;
     background: rgba(255, 17, 17, 0.8);
     z-index: -1;
+    border: 10px solid transparent;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeI5OdXwEAa7pzr6m9MOoZTKeymD8TJIQPPQ&s");
+    border-image: url("/Images/Border27.png");
 }
 
 .ClickMenu {
@@ -119,6 +122,9 @@ fieldset {
     background: rgba(255, 17, 17, 0.8);
     width: 30vw;
     height: 60vh;
+    border: 10px solid transparent;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeI5OdXwEAa7pzr6m9MOoZTKeymD8TJIQPPQ&s");
+    border-image: url("/Images/Border27.png");
 }
 
 

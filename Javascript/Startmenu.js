@@ -4,3 +4,5 @@ myBox.addEventListener('animationend', () => {
     myBox.remove();
     console.log('Box removed after animation.');
 });
+
+
