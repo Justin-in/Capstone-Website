@@ -47,3 +47,13 @@ document.getElementById('Settings').addEventListener('click', () => {
         });
 });
 
+// function showPopup() {
+//     const popup = document.getElementById("levelPopup");
+//     popup.style.display = "block";
+// }
+
+// // Close popup and start chosen level
+// function chooseLevel(levelNumber) {
+//     document.getElementById("levelPopup").style.display = "none";
+//     manageState(levelNumber);
+// }
