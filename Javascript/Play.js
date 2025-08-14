@@ -1,15 +1,16 @@
 const stateStatus = {
-    Level1: "dawif",
-    Level2: "aowdka"
+    Level1: "Tutorial",
+    Level2: "First Level"
 };
 
 function manageState(stateNumber) {
     switch (stateNumber) {
         case 0:
-            console.log("Entering Level 1:", stateStatus.Level1);
+            console.log("Entering The First Level:", stateStatus.Level1);
+
             break;
         case 1:
-            console.log("Entering Level 2:", stateStatus.Level2);
+            console.log("Entering The Second:", stateStatus.Level2);
             break;
         default:
             console.warn("Unknown state:", stateNumber);
