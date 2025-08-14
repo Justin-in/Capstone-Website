@@ -43,6 +43,22 @@ const player = new Player({
 //     x: 300,
 //     y: 100,
 // })
+const keys = {
+    d: {
+        pressed: false,
+    },
+    a: {
+        pressed: false,
+    },
+    d: {
+        pressed: false,
+    },
+    d: {
+        pressed: false,
+    },
+}
+
+
 
 function animate() {
     window.requestAnimationFrame(animate);
@@ -50,6 +66,10 @@ function animate() {
     c.fillRect(0, 0, canvas.width, canvas.height);
     player.update();
     // player2s.update();
+
+    player.velocity.x = 0;
+    if (keys.d.pressed) player.velocity.x = 1;
+    else if (keys.a.pressed) player.velocity.x = -1;
 };
 
 animate();
@@ -57,16 +77,25 @@ animate();
 window.addEventListener('keydown', (event) => {
     switch (event.key) {
         case 'd':
-            player.velocity.x = 1;
+            keys.d.pressed = true;
             break;
         case 'a':
-            player.velocity.x = -1;
+            keys.a.pressed = true;
             break;
         case 'w':
-            player.velocity.y = -1;
+            player.velocity.y = -10;
             break;
-        case 's':
-            player.velocity.y = 1;
+
+    }
+});
+
+window.addEventListener('keyup', (event) => {
+    switch (event.key) {
+        case 'd':
+            keys.d.pressed = false;
+            break;
+        case 'a':
+            keys.a.pressed = false;
             break;
 
     }
