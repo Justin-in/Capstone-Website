@@ -6,7 +6,7 @@ const stateStatus = {
 function manageState(stateNumber) {
     switch (stateNumber) {
         case 0:
-            console.log("Entering The First Level:", stateStatus.Level1);
+            console.log("Entering The First Level:", stateStatus.Level);
 
             break;
         case 1:
@@ -20,7 +20,7 @@ function manageState(stateNumber) {
 document.getElementById("playButton").addEventListener("click", function () {
     let audio = document.getElementById("background-music");
     if (audio) {
-        audio.remove();
+
     }
 
 

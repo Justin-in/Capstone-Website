@@ -1,7 +1,14 @@
 .StartGame {
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* 1920 by 1080; */
+.canvas {
     width: 100vw;
     height: 100vh;
 
