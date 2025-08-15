@@ -66,6 +66,7 @@ const player = new Player({
         y: 0,
     },
     collisionBlocks,
+    imageSrc: 'Images/Character/idle.png'
 });
 
 // const player2s = new Player({ another player if we wanted
