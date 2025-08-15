@@ -66,13 +66,11 @@ const player = new Player({
         y: 0,
     },
     collisionBlocks,
-    imageSrc: 'Images/Character/idle.png'
+    imageSrc: 'Images/Character/Idle.png',
+    frameRate: 8,
 });
 
-// const player2s = new Player({ another player if we wanted
-//     x: 300,
-//     y: 100,
-// })
+
 
 const keys = {
     d: {
